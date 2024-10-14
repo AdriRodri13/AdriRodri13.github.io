@@ -1,97 +1,123 @@
-body{
-    padding: 3em;
+:root {
+    --color-primario: rgb(34, 150, 243); /* Azul suave */
+    --color-secundario: rgb(45, 111, 129); /* Verde azulado oscuro */
 }
 
-header{
+body {
+    padding: 3em;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #2c2c2c; /* Texto gris oscuro */
+}
+
+header {
     display: flex;
     flex-direction: column;
-    
 }
 
-.informacion{
+.informacion {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 1.5em;
 }
 
-.contenedor_imagen{
+.contenedor_imagen {
     width: 10em;
 }
 
-.imagen__cv{
+.imagen__cv {
     border-radius: 30em;
 }
 
-.informacion__enlaces{
+.informacion__enlaces {
     display: flex;
     flex-direction: row;
     justify-content: start;
     gap: 2em;
 }
 
-.informacion__enlaces a{
-    color: black;
+.informacion__enlaces a {
+    color: white;
     text-decoration: none;
-    border: 2px lightblue solid;
+    border: 2px var(--color-primario) solid;
     padding: .6em;
-    border-radius: 1.5em;
+    border-radius: 3em;
+    transition: all 0.3s ease; /* Transición suave */
+    transform: scale(1); /* Tamaño original */
 }
 
-.correo{
-    background-color: lightblue;
+.informacion__enlaces a:hover {
+    background-color: #a67ffb; /* Fondo morado claro en hover */
+    color: white; /* Texto en blanco */
+    border-color: #a67ffb; /* Borde morado claro */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+.informacion__enlaces i {
+    color: var(--color-primario); /* Color de ícono original */
+    transition: color 0.3s ease; /* Transición de color suave */
+}
+
+.informacion__enlaces a:hover i {
+    color: white; /* Cambia el color del ícono a blanco en hover */
+}
+
+
+.correo {
+    background-color: var(--color-primario);
     padding: .3em;
 }
 
-.informacion__enlaces i{
-   color: lightblue;
-}
 
-main{
+main {
     display: flex;
     flex-direction: column;
     gap: 3em;
 }
 
-.tecnologias{
+.tecnologias {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.tecnologia{
+.tecnologia {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:1em;
+    gap: 1em;
 }
 
-.seccion{
+.seccion {
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.tecnologia i{
-    color: lightblue;
-    border: 2px lightblue solid;
+.tecnologia i {
+    color: var(--color-primario);
+    border: 2px var(--color-primario) solid;
     padding: .6em;
     border-radius: 1.5em;
+    
 }
 
-
-
-.formacion__estudio{
+.formacion__estudio {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 1em;
 }
 
-.estudio__informacion{
+.formacion__estudio i {
+    color: var(--color-primario);
+}
+
+.estudio__informacion {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2em;
 }
+
 

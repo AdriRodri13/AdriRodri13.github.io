@@ -120,4 +120,11 @@ main {
     gap: 2em;
 }
 
+.fecha{
+    background-color: var(--color-primario);
+    border-radius: 1em;
+    padding: .3em;
+    color: white;
+}
+
 

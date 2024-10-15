@@ -18,7 +18,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 1.5em;
+    gap: .5em;
 }
 
 .contenedor_imagen {

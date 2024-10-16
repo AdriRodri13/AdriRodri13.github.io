@@ -18,16 +18,16 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: .5em;
 }
 
 .contenedor_imagen {
-    width: 20em;
+    width: 15em;
 }
 
-.imagen__cv {
-    border-radius: 30em;
+.img_cv{
+    width: 15em;
 }
+
 
 .informacion__enlaces {
     display: flex;

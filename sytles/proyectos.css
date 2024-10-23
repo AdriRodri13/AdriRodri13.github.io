@@ -1,0 +1,41 @@
+:root {
+    --color-primario: rgb(34, 150, 243); /* Azul suave */
+    --color-secundario: rgb(45, 111, 129); /* Verde azulado oscuro */
+}
+
+body{
+    background-color: #fdfdfd;
+}
+
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-primario);
+}
+
+.destacado {
+    color: var(--color-secundario); /* Color de énfasis */
+    font-weight: bold;
+    background-color: #f0f8ff; /* Color de fondo suave */
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.header-custom {
+    background: linear-gradient(135deg, --color-primario, --color-secundario); 
+    padding: 8em 0; /* Mayor espaciado */
+    box-shadow: 0 .4em 1em rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    border-bottom: 5px solid #0056b3; /* Línea inferior para mayor énfasis */
+}
+
+.header-title {
+    text-shadow: .1em .1em .5em rgba(0, 0, 0, 0.5); /* Sombra en el texto */
+    font-weight: 700; /* Negrita para más impacto */
+    letter-spacing: .1em; /* Espaciado entre letras */
+}
+
+.header-custom p.lead {
+    font-size: 1.25rem; /* Tamaño de texto ligeramente mayor */
+    font-weight: 300; /* Texto de descripción más liviano */
+    margin-top: 2em; /* Espaciado entre título y subtítulo */
+}
+

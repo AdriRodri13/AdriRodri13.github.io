@@ -5,7 +5,7 @@
 
 body {
     padding: 3em;
-    background-color: #f0f0f0; /* Fondo gris claro */
+    background-color: #fdfdfd; /* Fondo gris claro */
     color: #2c2c2c; /* Texto gris oscuro */
 }
 
@@ -127,5 +127,11 @@ main {
     color: white;
 }
 
+.card{
+    transition: 0.3s ease;
+}
 
+.card:hover{
+    transform: scale(1.05);
+}
 

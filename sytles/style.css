@@ -135,3 +135,8 @@ main {
     transform: scale(1.05);
 }
 
+.card-img-top{
+    height: 15em;
+}
+
+
